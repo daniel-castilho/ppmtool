@@ -14,7 +14,7 @@ import javax.validation.constraints.Size;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
-@Entity
+@Entity(name = "Project")
 public class Project {
 
 	@Id
